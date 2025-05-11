@@ -10,8 +10,8 @@ configured for commiting.
 ## Installation
 
 ```
-cd ~/.dzil
-git clone <repo>
-mv perl-dist-profiles profiles
+REPO="https://github.com/bbrtj/perl-dzil-profiles"
+mkdir -p ~/.dzil
+git clone $REPO ~/.dzil/profiles
 ```
 
